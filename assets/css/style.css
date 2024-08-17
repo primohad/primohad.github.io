@@ -464,6 +464,13 @@ section {
   border: 2px solid #1f5297;
 }
 
+.resume-item p.teacher, .resume-item p.books {
+  /* font-style: italic; */
+  color: #6c757d; /* Subtle grey color */
+  font-size: smaller;
+  margin: auto;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -720,7 +727,7 @@ section {
 
 .references .reference-item .img-box .reference-img {
   width: 100%;
-  border-radius: 10%;
+  border-radius: 6px;
   /* margin: 0 auto; */
 }
 .references .reference-item .reference-information-box{
@@ -749,7 +756,6 @@ section {
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
-  bottom: -20px;
   left: calc(50% - 20px);
 }
 
