@@ -1436,36 +1436,31 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
+
+.footer {
+  margin-left: 300px;
+  padding: 5px 15px;
+  color: #6c757d;
   font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
+  text-align: center;
+  border-top: 1px solid #e9e9e9;
+  background: #f8f9fa;
 }
 
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
+.footer #last-updated {
+  color: #149ddd;
+  font-weight: 600;
 }
 
 @media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
+  .footer {
+    margin-left: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# About Section (Custom Additions)
+--------------------------------------------------------------*/
 
 .thesis-link {
   display: inline-flex;
@@ -1517,11 +1512,4 @@ section {
   margin-right: 6px;
   margin-top: 4px;
   flex-shrink: 0;
-}
-
-.footer {
-  padding: 20px 0;
-  color: #6c757d;
-  font-size: 14px;
-  border-top: 1px solid #e9e9e9;
 }
